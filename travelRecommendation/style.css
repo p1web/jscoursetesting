@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  width: 250px;
+}
+
+.search-btn, .clear-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  height: 100vh;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Lower_Manhattan_skyline_-_June_2017.jpg') no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h1 span {
+  display: block;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.hero-content p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: rgba(0,0,0,0.5);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.book-now {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background-color: teal;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.social-icons {
+  position: absolute;
+  top: 30%;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+}
+.about-section {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Lower_Manhattan_skyline_-_June_2017.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 120px 80px;
+    position: relative;
+  }
+  
+  .about-header h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  
+  .about-description {
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .about-description strong {
+    font-weight: 700;
+  }
+  
+  .team-section {
+    margin-top: 60px;
+  }
+  
+  .team-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .team-section h2 span {
+    font-weight: normal;
+    font-size: 28px;
+  }
+  
+  .team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .team-card {
+    flex: 1;
+    min-width: 220px;
+    max-width: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .team-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .team-card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .badge {
+    display: inline-block;
+    background-color: #3f51b5;
+    padding: 6px 15px;
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
