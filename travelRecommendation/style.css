@@ -259,3 +259,19 @@ nav a {
     background-color: #006666;
   }
   
+  #results{
+    text-align: center;
+    background: #00000057;
+    padding: 20px;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    top: 130px;
+    max-width: 450px;
+  }
+
+#results img {
+    padding:5px;
+    border-radius: 6px;
+  }
+  
