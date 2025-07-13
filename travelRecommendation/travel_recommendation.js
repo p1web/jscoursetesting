@@ -35,7 +35,7 @@ document.getElementById('searchButton').addEventListener('click', function () {
           });
         }
       });
-      
+
 
       // Search in temples
       data.temples.forEach(temple => {
