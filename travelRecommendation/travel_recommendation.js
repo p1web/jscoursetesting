@@ -35,7 +35,7 @@ document.getElementById('searchButton').addEventListener('click', function () {
           });
         }
       });
-      
+
 
       // Search in temples
       data.temples.forEach(temple => {
@@ -88,3 +88,7 @@ function displayResults(results) {
     container.appendChild(div);
   });
 }
+
+document.querySelector('.clear-btn').addEventListener('click', function () {
+  document.getElementById('searchInput').value = '';
+});
