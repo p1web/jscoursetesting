@@ -20,6 +20,7 @@ header {
   align-items: center;
   background: rgba(0,0,0,0.5);
   color: white;
+  z-index: 1;
 }
 
 .logo {
@@ -58,18 +59,18 @@ nav a {
 
 .hero {
   height: 100vh;
-  background: url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Lower_Manhattan_skyline_-_June_2017.jpg') no-repeat center center/cover;
+  background: url('./img/Background2.png') no-repeat center center/cover;
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
   color: white;
   text-align: left;
   padding-left: 100px;
 }
 
 .hero-content {
-  max-width: 600px;
+  max-width: 450px;
 }
 
 .hero-content h1 span {
@@ -114,9 +115,7 @@ nav a {
   font-size: 20px;
 }
 .about-section {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Lower_Manhattan_skyline_-_June_2017.jpg') no-repeat center center/cover;
     color: white;
-    padding: 120px 80px;
     position: relative;
   }
   
